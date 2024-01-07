@@ -23,7 +23,7 @@ logger.setLevel(logging.DEBUG)
 # Custom Domain
 ghPagesURL = "https://tiktokrss.conoroneill.com/"
 
-maxItems = 5
+maxItems = 20
 
 
 def run(csvuser):
