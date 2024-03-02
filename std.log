@@ -1,10 +1,10 @@
-2024-03-02 19:16:17,704 Using selector: EpollSelector
-2024-03-02 19:18:18,564 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-02 19:18:18,564 Using selector: EpollSelector
-2024-03-02 19:20:19,241 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-02 19:20:19,242 Using selector: EpollSelector
-2024-03-02 19:22:19,875 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-02 19:22:19,875 Using selector: EpollSelector
-2024-03-02 19:24:20,539 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-03-02 19:24:20,540 Using selector: EpollSelector
-2024-03-02 19:25:21,496 Error: net::ERR_CONNECTION_RESET at https://www.tiktok.com/@visitballyhoura
+2024-03-02 20:19:40,824 Using selector: EpollSelector
+2024-03-02 20:21:42,027 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-02 20:21:42,028 Using selector: EpollSelector
+2024-03-02 20:23:43,723 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-02 20:23:43,724 Using selector: EpollSelector
+2024-03-02 20:25:44,947 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-02 20:25:44,948 Using selector: EpollSelector
+2024-03-02 20:27:45,696 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-03-02 20:27:45,696 Using selector: EpollSelector
+2024-03-02 20:29:46,872 Error: Data scraping unable to complete in 60.0s (retries: 3)
