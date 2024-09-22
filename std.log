@@ -1,10 +1,132 @@
-2024-09-22 19:19:44,089 Using selector: EpollSelector
-2024-09-22 19:21:47,109 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-22 19:21:47,109 Using selector: EpollSelector
-2024-09-22 19:23:49,823 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-22 19:23:49,823 Using selector: EpollSelector
-2024-09-22 19:25:54,884 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-22 19:25:54,884 Using selector: EpollSelector
-2024-09-22 19:27:57,450 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-09-22 19:27:57,450 Using selector: EpollSelector
-2024-09-22 19:30:00,323 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-22 20:26:22,454 Using selector: EpollSelector
+2024-09-22 20:28:24,864 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-22 20:28:24,864 Using selector: EpollSelector
+2024-09-22 20:30:28,129 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-22 20:30:28,129 Using selector: EpollSelector
+2024-09-22 20:32:30,438 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-22 20:32:30,438 Using selector: EpollSelector
+2024-09-22 20:34:32,647 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-09-22 20:34:32,648 Using selector: EpollSelector
+2024-09-22 20:34:33,484 Error: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-QExnCx --remote-debugging-pipe --no-startup-window
+<launched> pid=3325
+[pid=3325][err] Old Headless mode will be removed from the Chrome binary soon. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
+[pid=3325][err] 
+[pid=3325][err] [0922/203432.924989:WARNING:audio_manager_linux.cc(54)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+[pid=3325][err] Received signal 11 SI_KERNEL000000000000
+[pid=3325][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
+[pid=3325][err] #0 0x55f7ea61ecd2 [0922/203432.940234:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[pid=3325][err] base::debug::CollectStackTrace()
+[pid=3325][err] #1 0x55f7ea60beae base::debug::StackTrace::StackTrace()
+[pid=3325][err] #2 0x55f7ea61e6e1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
+[pid=3325][err] #3 0x7fc13e642520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
+[pid=3325][err] #4 0x7fc13e644c1d getenv
+[pid=3325][err] #5 0x55f7ea54e1ac base::(anonymous namespace)::EnvironmentImpl::GetVarImpl()
+[pid=3325][err] #6 0x55f7ea54dfb6 base::(anonymous namespace)::EnvironmentImpl::GetVar()
+[pid=3325][err] #7 0x55f7e82fc008 content::GetNetworkService()
+[pid=3325][err] #8 0x55f7e82fccc5 content::(anonymous namespace)::BindNetworkChangeManagerReceiver()
+[pid=3325][err] #9 0x55f7e7f15ac1 base::internal::Invoker<>::Run()
+[pid=3325][err] #10 0x55f7e582a6db base::RepeatingCallback<>::Run()
+[pid=3325][err] #11 0x55f7eb2da817 network::NetworkConnectionTracker::Initialize()
+[pid=3325][err] #12 0x55f7eb2da78f network::NetworkConnectionTracker::NetworkConnectionTracker()
+[pid=3325][err] #13 0x55f7e82fcc9d content::GetNetworkConnectionTracker()
+[pid=3325][err] #14 0x55f7e7f4ac57 content::BackgroundSyncNetworkObserver::BackgroundSyncNetworkObserver()
+[pid=3325][err] #15 0x55f7e7f3f56f content::BackgroundSyncManager::BackgroundSyncManager()
+[pid=3325][err] #16 0x55f7e7f3caca content::BackgroundSyncManager::Create()
+[pid=3325][err] #17 0x55f7e7f3ca53 content::BackgroundSyncContextImpl::CreateBackgroundSyncManager()
+[pid=3325][err] #18 0x55f7e7f3c55a content::BackgroundSyncContextImpl::Init()
+[pid=3325][err] #19 0x55f7e8658f66 content::StoragePartitionImpl::Initialize()
+[pid=3325][err] #20 0x55f7e866acfd content::StoragePartitionImplMap::Get()
+[pid=3325][err] #21 0x55f7e7f825d9 content::BrowserContext::GetDefaultStoragePartition()
+[pid=3325][err] #22 0x55f7f0d982b8 headless::HeadlessBrowserContextImpl::GetOriginTrialsControllerDelegate()
+[pid=3325][err] #23 0x55f7f0d98110 headless::HeadlessBrowserContextImpl::HeadlessBrowserContextImpl()
+[pid=3325][err] #24 0x55f7f0d9874e headless::HeadlessBrowserContextImpl::Create()
+[pid=3325][err] #25 0x55f7f0d99eb2 headless::HeadlessBrowserImpl::CreateBrowserContext()
+[pid=3325][err] #26 0x55f7ea01b739 headless::(anonymous namespace)::HeadlessShell::OnBrowserStart()
+[pid=3325][err] #27 0x55f7f0d9a606 headless::HeadlessBrowserImpl::PreMainMessageLoopRun()
+[pid=3325][err] #28 0x55f7f0da30a7 headless::HeadlessBrowserMainParts::PreMainMessageLoopRun()
+[pid=3325][err] #29 0x55f7e7fa2892 content::BrowserMainLoop::PreMainMessageLoopRun()
+[pid=3325][err] #30 0x55f7e8654ab4 content::StartupTaskRunner::RunAllTasksNow()
+[pid=3325][err] #31 0x55f7e7fa24e5 content::BrowserMainLoop::CreateStartupTasks()
+[pid=3325][err] #32 0x55f7e7fa50ee content::BrowserMainRunnerImpl::Initialize()
+[pid=3325][err] #33 0x55f7f0da0acd headless::HeadlessContentMainDelegate::RunProcess()
+[pid=3325][err] #34 0x55f7e9a3bd2b content::RunBrowserProcessMain()
+[pid=3325][err] #35 0x55f7e9a3d56e content::ContentMainRunnerImpl::RunBrowser()
+[pid=3325][err] #36 0x55f7e9a3d133 content::ContentMainRunnerImpl::Run()
+[pid=3325][err] #37 0x55f7e9a3ace6 content::RunContentProcess()
+[pid=3325][err] #38 0x55f7e9a3af47 content::ContentMain()
+[pid=3325][err] #39 0x55f7ea01b528 headless::HeadlessShellMain()
+[pid=3325][err] #40 0x55f7e56874d9 ChromeMain
+[pid=3325][err] #41 0x7fc13e629d90 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x29d8f)
+[pid=3325][err] #42 0x7fc13e629e40 __libc_start_main
+[pid=3325][err] #43 0x55f7e568702a _start
+[pid=3325][err]   r8: 0000358800214000  r9: aaaaaaaaaaaaaaab r10: 0000000000000000 r11: 00007ffec54641b4
+[pid=3325][err]  r12: 005c020088350000 r13: 000000000000000d r14: 000000000000000b r15: 00007ffec54646f2
+[pid=3325][err]   di: 00007ffec54646f0  si: 4f4c59454b4c5353  bp: 0000000000005353  bx: 0000358800024800
+[pid=3325][err]   dx: 00007ffec54646f0  ax: 000000000000000d  cx: 454c4946474f4c59  sp: 00007ffec54646b0
+[pid=3325][err]   ip: 00007fc13e644c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
+[pid=3325][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
+[pid=3325][err] [end of stack trace]
+Call log:
+<launching> /home/runner/.cache/ms-playwright/chromium-1134/chrome-linux/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --disable-gpu --single-process --user-data-dir=/tmp/playwright_chromiumdev_profile-QExnCx --remote-debugging-pipe --no-startup-window
+  - <launched> pid=3325
+  - [pid=3325][err] Old Headless mode will be removed from the Chrome binary soon. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
+  - [pid=3325][err] 
+  - [pid=3325][err] [0922/203432.924989:WARNING:audio_manager_linux.cc(54)] Falling back to ALSA for audio output. PulseAudio is not available or could not be initialized.
+  - [pid=3325][err] Received signal 11 SI_KERNEL000000000000
+  - [pid=3325][err]  Possibly a General Protection Fault, can be due to a non-canonical address dereference. See "Intel 64 and IA-32 Architectures Software Developer’s Manual", Volume 1, Section 3.3.7.1.
+  - [pid=3325][err] #0 0x55f7ea61ecd2 [0922/203432.940234:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+  - [pid=3325][err] base::debug::CollectStackTrace()
+  - [pid=3325][err] #1 0x55f7ea60beae base::debug::StackTrace::StackTrace()
+  - [pid=3325][err] #2 0x55f7ea61e6e1 base::debug::(anonymous namespace)::StackDumpSignalHandler()
+  - [pid=3325][err] #3 0x7fc13e642520 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x4251f)
+  - [pid=3325][err] #4 0x7fc13e644c1d getenv
+  - [pid=3325][err] #5 0x55f7ea54e1ac base::(anonymous namespace)::EnvironmentImpl::GetVarImpl()
+  - [pid=3325][err] #6 0x55f7ea54dfb6 base::(anonymous namespace)::EnvironmentImpl::GetVar()
+  - [pid=3325][err] #7 0x55f7e82fc008 content::GetNetworkService()
+  - [pid=3325][err] #8 0x55f7e82fccc5 content::(anonymous namespace)::BindNetworkChangeManagerReceiver()
+  - [pid=3325][err] #9 0x55f7e7f15ac1 base::internal::Invoker<>::Run()
+  - [pid=3325][err] #10 0x55f7e582a6db base::RepeatingCallback<>::Run()
+  - [pid=3325][err] #11 0x55f7eb2da817 network::NetworkConnectionTracker::Initialize()
+  - [pid=3325][err] #12 0x55f7eb2da78f network::NetworkConnectionTracker::NetworkConnectionTracker()
+  - [pid=3325][err] #13 0x55f7e82fcc9d content::GetNetworkConnectionTracker()
+  - [pid=3325][err] #14 0x55f7e7f4ac57 content::BackgroundSyncNetworkObserver::BackgroundSyncNetworkObserver()
+  - [pid=3325][err] #15 0x55f7e7f3f56f content::BackgroundSyncManager::BackgroundSyncManager()
+  - [pid=3325][err] #16 0x55f7e7f3caca content::BackgroundSyncManager::Create()
+  - [pid=3325][err] #17 0x55f7e7f3ca53 content::BackgroundSyncContextImpl::CreateBackgroundSyncManager()
+  - [pid=3325][err] #18 0x55f7e7f3c55a content::BackgroundSyncContextImpl::Init()
+  - [pid=3325][err] #19 0x55f7e8658f66 content::StoragePartitionImpl::Initialize()
+  - [pid=3325][err] #20 0x55f7e866acfd content::StoragePartitionImplMap::Get()
+  - [pid=3325][err] #21 0x55f7e7f825d9 content::BrowserContext::GetDefaultStoragePartition()
+  - [pid=3325][err] #22 0x55f7f0d982b8 headless::HeadlessBrowserContextImpl::GetOriginTrialsControllerDelegate()
+  - [pid=3325][err] #23 0x55f7f0d98110 headless::HeadlessBrowserContextImpl::HeadlessBrowserContextImpl()
+  - [pid=3325][err] #24 0x55f7f0d9874e headless::HeadlessBrowserContextImpl::Create()
+  - [pid=3325][err] #25 0x55f7f0d99eb2 headless::HeadlessBrowserImpl::CreateBrowserContext()
+  - [pid=3325][err] #26 0x55f7ea01b739 headless::(anonymous namespace)::HeadlessShell::OnBrowserStart()
+  - [pid=3325][err] #27 0x55f7f0d9a606 headless::HeadlessBrowserImpl::PreMainMessageLoopRun()
+  - [pid=3325][err] #28 0x55f7f0da30a7 headless::HeadlessBrowserMainParts::PreMainMessageLoopRun()
+  - [pid=3325][err] #29 0x55f7e7fa2892 content::BrowserMainLoop::PreMainMessageLoopRun()
+  - [pid=3325][err] #30 0x55f7e8654ab4 content::StartupTaskRunner::RunAllTasksNow()
+  - [pid=3325][err] #31 0x55f7e7fa24e5 content::BrowserMainLoop::CreateStartupTasks()
+  - [pid=3325][err] #32 0x55f7e7fa50ee content::BrowserMainRunnerImpl::Initialize()
+  - [pid=3325][err] #33 0x55f7f0da0acd headless::HeadlessContentMainDelegate::RunProcess()
+  - [pid=3325][err] #34 0x55f7e9a3bd2b content::RunBrowserProcessMain()
+  - [pid=3325][err] #35 0x55f7e9a3d56e content::ContentMainRunnerImpl::RunBrowser()
+  - [pid=3325][err] #36 0x55f7e9a3d133 content::ContentMainRunnerImpl::Run()
+  - [pid=3325][err] #37 0x55f7e9a3ace6 content::RunContentProcess()
+  - [pid=3325][err] #38 0x55f7e9a3af47 content::ContentMain()
+  - [pid=3325][err] #39 0x55f7ea01b528 headless::HeadlessShellMain()
+  - [pid=3325][err] #40 0x55f7e56874d9 ChromeMain
+  - [pid=3325][err] #41 0x7fc13e629d90 (/usr/lib/x86_64-linux-gnu/libc.so.6+0x29d8f)
+  - [pid=3325][err] #42 0x7fc13e629e40 __libc_start_main
+  - [pid=3325][err] #43 0x55f7e568702a _start
+  - [pid=3325][err]   r8: 0000358800214000  r9: aaaaaaaaaaaaaaab r10: 0000000000000000 r11: 00007ffec54641b4
+  - [pid=3325][err]  r12: 005c020088350000 r13: 000000000000000d r14: 000000000000000b r15: 00007ffec54646f2
+  - [pid=3325][err]   di: 00007ffec54646f0  si: 4f4c59454b4c5353  bp: 0000000000005353  bx: 0000358800024800
+  - [pid=3325][err]   dx: 00007ffec54646f0  ax: 000000000000000d  cx: 454c4946474f4c59  sp: 00007ffec54646b0
+  - [pid=3325][err]   ip: 00007fc13e644c1d efl: 0000000000010206 cgf: 002b000000000033 erf: 0000000000000000
+  - [pid=3325][err]  trp: 000000000000000d msk: 0000000000000000 cr2: 0000000000000000
+  - [pid=3325][err] [end of stack trace]
+
