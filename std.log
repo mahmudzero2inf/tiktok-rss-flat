@@ -1,10 +1,16 @@
-2024-10-06 13:18:10,348 Using selector: EpollSelector
-2024-10-06 13:20:12,791 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-06 13:20:12,792 Using selector: EpollSelector
-2024-10-06 13:22:15,514 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-06 13:22:15,514 Using selector: EpollSelector
-2024-10-06 13:24:17,687 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-06 13:24:17,687 Using selector: EpollSelector
-2024-10-06 13:26:20,177 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-10-06 13:26:20,177 Using selector: EpollSelector
-2024-10-06 13:28:22,562 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-06 14:16:57,010 Using selector: EpollSelector
+2024-10-06 14:17:07,797 Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.tiktok.com/@getsmoothieq
+Call log:
+navigating to "https://www.tiktok.com/@getsmoothieq", waiting until "load"
+
+2024-10-06 14:17:07,797 Using selector: EpollSelector
+2024-10-06 14:17:15,205 Error: Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.tiktok.com/@mirandagoesoutside
+Call log:
+navigating to "https://www.tiktok.com/@mirandagoesoutside", waiting until "load"
+
+2024-10-06 14:17:15,206 Using selector: EpollSelector
+2024-10-06 14:19:20,464 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-06 14:19:20,464 Using selector: EpollSelector
+2024-10-06 14:21:23,195 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-10-06 14:21:23,196 Using selector: EpollSelector
+2024-10-06 14:23:25,770 Error: Data scraping unable to complete in 60.0s (retries: 3)
