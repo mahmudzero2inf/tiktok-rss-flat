@@ -1,13 +1,10 @@
-2024-12-18 15:17:51,291 Using selector: EpollSelector
-2024-12-18 15:18:19,917 Error: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.tiktok.com/@getsmoothieq
-Call log:
-  - navigating to "https://www.tiktok.com/@getsmoothieq", waiting until "load"
-
-2024-12-18 15:18:19,917 Using selector: EpollSelector
-2024-12-18 15:20:22,084 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-18 15:20:22,084 Using selector: EpollSelector
-2024-12-18 15:22:26,269 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-18 15:22:26,269 Using selector: EpollSelector
-2024-12-18 15:24:28,277 Error: Data scraping unable to complete in 60.0s (retries: 3)
-2024-12-18 15:24:28,278 Using selector: EpollSelector
-2024-12-18 15:26:30,906 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 16:18:39,976 Using selector: EpollSelector
+2024-12-18 16:20:42,495 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 16:20:42,495 Using selector: EpollSelector
+2024-12-18 16:22:44,792 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 16:22:44,792 Using selector: EpollSelector
+2024-12-18 16:24:47,190 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 16:24:47,190 Using selector: EpollSelector
+2024-12-18 16:26:49,359 Error: Data scraping unable to complete in 60.0s (retries: 3)
+2024-12-18 16:26:49,359 Using selector: EpollSelector
+2024-12-18 16:28:52,502 Error: Data scraping unable to complete in 60.0s (retries: 3)
